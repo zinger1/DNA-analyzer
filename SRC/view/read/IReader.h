@@ -7,7 +7,6 @@
 
 #include <string>
 
-//#include <iostream>
 class IReader{
 public:
     virtual std::string readData() = 0;

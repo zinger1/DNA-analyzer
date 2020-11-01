@@ -10,8 +10,6 @@
 class NewCommandParams : public IParams{
 public:
     /*virtual*/ void validArgs(args& args_cmd);
-//private:
-//    static size_t s_num_default_name;
 };
 
 #endif //DNA_NEWPARAMS_H

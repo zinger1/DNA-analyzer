@@ -16,12 +16,9 @@ void NewCommandParams::validArgs(args& args_cmd){
     }
     catch (MyException &exception){
         throw exception.what();
-//        std::cout << exception.what() << std::endl;
-//        return false;
+
     }
 
-//    ICreationParams::validName(args_cmd, "seq");
     validName(args_cmd, "seq");
     mapInsert(args_cmd);
-//    return true;
 }

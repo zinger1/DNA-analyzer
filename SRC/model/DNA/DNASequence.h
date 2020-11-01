@@ -19,8 +19,6 @@ private:
 
         Nucleotide(){}
 
-//        Nucleotide(char c): m_c(c){}
-
         Nucleotide &operator=(const char c);
 
         Nucleotide &operator=(Nucleotide &nucleotide);

@@ -9,7 +9,6 @@
 #include <map>
 class DNAContainer {
 public:
-//    SRC(){m_idDNA = 1;}
 
     static DNAContainer &getDNAContainer();
 

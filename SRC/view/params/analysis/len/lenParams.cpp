@@ -26,10 +26,6 @@ void LenCommandParams::validArgs(args &args_cmd) {
     castToNum >> id;
     if (!DNAContainer::getDNAContainer().getMetaDataById(id)){
         throw MyException("Invalid id\n");
-//        std::cout << "Error: invalid id" << std::endl;
-//        return false;
     }
-//    return true;
-
 }
 

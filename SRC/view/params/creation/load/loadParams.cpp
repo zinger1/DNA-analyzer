@@ -19,16 +19,13 @@ void LoadCommandParams::validArgs(args &params) {
         fileReader.readData();
         if(fileReader.readData().empty()){
             throw MyException("This file is empty!");
-//        return false;
         }
     }
     catch (MyException &exception){
         throw exception;
     }
 
-//    ICreationParams::validName(params, params[1].substr(0, pos));
     validName(params, params[1].substr(0, pos));
     mapInsert(params);
-//    return true;
 
 }

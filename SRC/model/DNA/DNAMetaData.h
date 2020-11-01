@@ -23,8 +23,6 @@ private:
     DnaSequence m_dnaSequence;
     Status m_status;
     std::string m_name;
-//    size_t m_id;
-//    static size_t s_idCount;
 
 };
 

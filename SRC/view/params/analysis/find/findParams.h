@@ -12,9 +12,6 @@ class FindCommandParams: public IParams{
 public:
     /*virtual*/ void validArgs(args& args_cmd);
 
-//private:
-//    void isIdParam(std::string &param);
-
 };
 
 

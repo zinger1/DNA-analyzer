@@ -24,15 +24,5 @@ std::string FileReader::readData() {
     getline(file, data);
     file.close();
 
-
-//    file.open(m_fileName.c_str());
-//    if(file.is_open()){
-//        getline(file, data);
-//        file.close();
-//    }
-//    else{
-//        std::cout << "Exception opening/reading file" << std::endl;
-//    }
-
     return data;
 }
